@@ -1,6 +1,6 @@
 # Accessibility-Modelling
 Repository for article on task-specific quality assessment of global open building datasets (OBDs) using health accessibility modelling. This project evaluates the fitness of four major open building datasets—Google, Microsoft, OSM, and GBA—for spatial analysis in healthcare access studies.
-
+```
 data/
 ├── raw/                      # Original downloaded datasets
 │   ├── google_buildings/    # Google Open Buildings
@@ -14,7 +14,7 @@ data/
     ├── health_facilities/    # Hospital/clinic locations
     ├── road_network/         # Transportation networks
     └── population/           # Gridded population data
-
+```
 
 # Dataset Specifications
 
