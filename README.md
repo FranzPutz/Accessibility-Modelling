@@ -6,7 +6,7 @@ data/
 │   ├── google_buildings/    # Google Open Buildings
 │   ├── microsoft_buildings/ # Microsoft Building Footprints  
 │   ├── osm_buildings/       # OpenStreetMap data
-│   └── esri_buildings/      # Esri Living Atlas
+│   └── googlebuildingatlas/ # Esri Living Atlas
 ├── processed/                # Harmonized/cleaned datasets
 ├── reference/                # Administrative boundaries, study areas
 │   └── study_area.geojson   # Your AOI polygon
