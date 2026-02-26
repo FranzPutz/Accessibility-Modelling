@@ -28,7 +28,7 @@ data/
   </tr>
   <tr>
     <td><strong>Google Open Buildings</strong></td>
-    <td><a href="">[https://sites.research.google/open-buildings](https://sites.research.google/open-buildings)">Google</a></td>
+    <td><a href="https://sites.research.google/gr/open-buildings/">Google Open Buildings</a></td>
     <td>GeoJSON/Parquet</td>
     <td>Building footprints</td>
     <td><code>google_buildings_[city].geojson</code></td>
