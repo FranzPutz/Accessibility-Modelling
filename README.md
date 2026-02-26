@@ -18,7 +18,64 @@ data/
 
 # Dataset Specifications
 
-<img width="2562" height="1265" alt="image" src="https://github.com/user-attachments/assets/04c2462c-db97-4ee1-aeb3-08d04bc5e618" />
+<table>
+  <tr>
+    <th>Dataset</th>
+    <th>Source</th>
+    <th>Format</th>
+    <th>Resolution/Scale</th>
+    <th>File Naming Convention</th>
+  </tr>
+  <tr>
+    <td><strong>Google Open Buildings</strong></td>
+    <td>Google</td>
+    <td>GeoJSON/Parquet</td>
+    <td>Building footprints</td>
+    <td><code>google_buildings_[city].geojson</code></td>
+  </tr>
+  <tr>
+    <td><strong>Microsoft Building Footprints</strong></td>
+    <td>Microsoft</td>
+    <td>GeoJSON</td>
+    <td>~1:1000 scale</td>
+    <td><code>microsoft_buildings_[city].geojson</code></td>
+  </tr>
+  <tr>
+    <td><strong>OSM Building Data</strong></td>
+    <td>Geofabrik</td>
+    <td>.shp/.pbf</td>
+    <td>Varies by region</td>
+    <td><code>osm_buildings_[city].shp</code></td>
+  </tr>
+  <tr>
+    <td><strong>Esri Building Footprints</strong></td>
+    <td>Esri</td>
+    <td>FileGDB</td>
+    <td>10m resolution</td>
+    <td><code>esri_buildings_[city].gdb</code></td>
+  </tr>
+  <tr>
+    <td><strong>Health Facilities</strong></td>
+    <td>WHO/OSM</td>
+    <td>GeoJSON/CSV</td>
+    <td>Point locations</td>
+    <td><code>health_facilities_[city].geojson</code></td>
+  </tr>
+  <tr>
+    <td><strong>Road Network</strong></td>
+    <td>OSM/OpenStreetMap</td>
+    <td>.pbf/.graphml</td>
+    <td>Street segments</td>
+    <td><code>road_network_[city].graphml</code></td>
+  </tr>
+  <tr>
+    <td><strong>Population</strong></td>
+    <td>WorldPop/GHSL</td>
+    <td>GeoTIFF</td>
+    <td>100m/1km grids</td>
+    <td><code>population_[city]_[year].tif</code></td>
+  </tr>
+</table>
 
 
 * Create directory structure
