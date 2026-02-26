@@ -6,7 +6,7 @@ data/
 │   ├── google_buildings/    # Google Open Buildings
 │   ├── microsoft_buildings/ # Microsoft Building Footprints  
 │   ├── osm_buildings/       # OpenStreetMap data
-│   └── googlebuildingatlas/ # Esri Living Atlas
+│   └── googlebuildingatlas/ # TUM
 ├── processed/                # Harmonized/cleaned datasets
 ├── reference/                # Administrative boundaries, study areas
 │   └── study_area.geojson   # Your AOI polygon
@@ -21,27 +21,27 @@ data/
 <img width="2562" height="1265" alt="image" src="https://github.com/user-attachments/assets/04c2462c-db97-4ee1-aeb3-08d04bc5e618" />
 
 
-# Create directory structure
+* Create directory structure
 mkdir -p data/{raw/{google_buildings,microsoft_buildings,osm_buildings,esri_buildings},processed,reference,ancillary/{health_facilities,road_network,population}}
 
-# Download study area boundary (example for Nairobi)
-# Add your study area polygon to data/reference/study_area.geojson
+* Download study area boundary (example for Nairobi)
+* Add your study area polygon to data/reference/study_area.geojson
 
-# Download health facilities (example using OSM)
+* Download health facilities (example using OSM)
 python scripts/download_health_facilities.py --city "Nairobi" --output data/ancillary/health_facilities/
 
-# Extract road network
+* Extract road network
 python scripts/download_road_network.py --city "Nairobi" --output data/ancillary/road_network/
 
 
-# Example data loading in notebook
+* Example data loading in notebook
 google_data = gpd.read_file('data/processed/google_buildings_nairobi.geojson')
 microsoft_data = gpd.read_file('data/processed/microsoft_buildings_nairobi.geojson')  
 osm_data = gpd.read_file('data/processed/osm_buildings_nairobi.geojson')
 esri_data = gpd.read_file('data/processed/esri_buildings_nairobi.geojson')
 facilities = gpd.read_file('data/ancillary/health_facilities/nairobi_hospitals.geojson')
 
-# Data Sources & Download Instructions
+* Data Sources & Download Instructions
 Google Open Buildings: Download via VTP
 
 Microsoft Footprints: GitHub Releases
