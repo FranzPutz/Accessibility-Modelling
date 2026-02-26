@@ -48,10 +48,10 @@ data/
     <td><code>osm_buildings_[city].shp</code></td>
   </tr>
   <tr>
-    <td><strong>Esri Building Footprints</strong></td>
-    <td>Esri</td>
-    <td>FileGDB</td>
-    <td>10m resolution</td>
+    <td><strong>GlobalBuildingAtlas</strong></td>
+    <td>doi:10.14459/2025mp1782307</td>
+    <td>GPKG</td>
+    <td></td>
     <td><code>esri_buildings_[city].gdb</code></td>
   </tr>
   <tr>
@@ -72,7 +72,7 @@ data/
     <td><strong>Population</strong></td>
     <td>WorldPop/GHSL</td>
     <td>GeoTIFF</td>
-    <td>100m/1km grids</td>
+    <td>100m/100 grids</td>
     <td><code>population_[city]_[year].tif</code></td>
   </tr>
 </table>
