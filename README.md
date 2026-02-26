@@ -28,7 +28,7 @@ data/
   </tr>
   <tr>
     <td><strong>Google Open Buildings</strong></td>
-    <td>Google</td>
+    <td><a href="https://doi.org/10.14459/2025mp1782307](https://sites.research.google/open-buildings">Google</a></td>
     <td>GeoJSON/Parquet</td>
     <td>Building footprints</td>
     <td><code>google_buildings_[city].geojson</code></td>
@@ -42,7 +42,7 @@ data/
   </tr>
   <tr>
     <td><strong>OSM Building Data</strong></td>
-    <td>Geofabrik</td>
+    <td><a href=" https://download.geofabrik.de/](https://download.geofabrik.de/">Geofabrik</a></td>
     <td>.shp/.pbf</td>
     <td>Varies by region</td>
     <td><code>osm_buildings_[city].shp</code></td>
