@@ -72,7 +72,7 @@ data/
     <td><strong>Population</strong></td>
     <td>WorldPop/GHSL</td>
     <td>GeoTIFF</td>
-    <td>100m/100 grids</td>
+    <td>100x100 meter grids</td>
     <td><code>population_[city]_[year].tif</code></td>
   </tr>
 </table>
