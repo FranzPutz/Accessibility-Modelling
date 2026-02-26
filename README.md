@@ -49,7 +49,7 @@ data/
   </tr>
   <tr>
     <td><strong>GlobalBuildingAtlas</strong></td>
-    <td>doi:10.14459/2025mp1782307</td>
+    <td><a href="https://doi.org/10.14459/2025mp1782307">https://doi.org/10.14459/2025mp1782307</a></td>
     <td>GPKG</td>
     <td></td>
     <td><code>esri_buildings_[city].gdb</code></td>
