@@ -24,7 +24,7 @@ data/
     <th>Source</th>
     <th>Format</th>
     <th>Resolution/Scale</th>
-    <th>File Naming Convention</th>
+    <th>For comparison across cities(Not needed for the paper!)</th>
   </tr>
   <tr>
     <td><strong>Google Open Buildings</strong></td>
