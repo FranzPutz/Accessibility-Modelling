@@ -56,7 +56,7 @@ data/
   </tr>
   <tr>
     <td><strong>Health Facilities</strong></td>
-    <td><a href="[https://doi.org/10.14459/2025mp1782307](https://data.humdata.org/dataset/hotosm_gha_health_facilities)">https://doi.org/10.14459/2025mp1782307</a></td>
+    <td><a href="https://data.humdata.org/dataset/hotosm_gha_health_facilities">Ghana Health Facilities (OpenStreetMap)</a></td>
     <td>GeoJSON/CSV</td>
     <td>Point locations</td>
     <td><code>health_facilities_[city].geojson</code></td>
